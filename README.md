@@ -1,6 +1,12 @@
 KIWIapi uloha
 =============
 
+Instalace (Unix)
+----------------
+pip3 install -r requirements.txt
+cp book_flight.py /usr/local/bin/
+
+
 
 Vyhledání letu
 --------------

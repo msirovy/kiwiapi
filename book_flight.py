@@ -64,13 +64,13 @@ def book_fly(booking_token, bags):
     data = {
         "currency": "EUR",
         "passengers": {
-            "0": {
-                "email": ["msirovy@gmail.com"],
-                "firstName": ["Marek"],
-                "lastName": ["Sirovy"], 
-                "documentID": ["CZ6729H3BHDJC762U3"],
-                "birthday": ["10/05/1985"], 
-                "title": ["Mr"]
+            0: {
+                "email": "msirovy@gmail.com",
+                "firstName": "Marek",
+                "lastName": "Sirovy", 
+                "documentID": "CZ6729H11HDJC762U3",
+                "birthday": "10/05/1990", 
+                "title": "Mr"
             },
         },
         "bags": bags,
